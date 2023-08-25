@@ -1,7 +1,7 @@
 # sunfarm-data
 This Repository contains an archive of the SQL Server database that may be attached to an existing instance, to be used as test data for several of the Examples in this repository.
 
-If you are familiar to attaching a SQL Server database to an existing SQL Server instance, then download the fwo files in this repository to your server and proceed to attach the database.
+If you are familiar to attaching a SQL Server database to an existing SQL Server instance, then download the two files in this repository to your server and proceed to attach the database.
 
 If you are new to setting up SQL Server and/or how to attach an existing database, follow the steps below:
 
