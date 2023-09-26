@@ -8,13 +8,16 @@ If you are new to setting up SQL Server and/or how to attach an existing databas
 1. Install Microsoft SQL Server. You may use the free [Microsoft SQL Server Developer Edition](https://www.microsoft.com/en-us/sql-server/sql-server-downloads).
 2. Create SQL Server instance.
 3. Identify path where SQL Server stores the databases by default. Typically a path such as `C:\Program Files\Microsoft SQL Server\MSSQL16.MSSQLSERVER\MSSQL\DATA`.
-4. Copy the files in this repository named: `SunFarm.mdf` and `SunFarm_log.ldf` to path indicated in step 3.
+4. Copy the files in this repository named (to path indicated in step 3): 
+    a. `SunFarm.mdf` and `SunFarm_log.ldf`.
+    b. `Reports.mdf` and `Reports_log.ldf`. 
 5. Open your SQL Server instance.
 6. Right-click on Databases node on the tree. Run "Attach Databases".
 7. Click on "Add..." button.
 8. Locate the SunFarm.mdf file and click `Ok`. You will see two files in the **"SunFarm" database details** window.
 9. Click "OK".
 10. After a few seconds, the new Database "SunFarm" will appear. Make sure you see 19 Tables and 16 Views.
+11. Repeat steps 5 to 10 using `Reports.mdf` file.
 
 <br>
 <br>
